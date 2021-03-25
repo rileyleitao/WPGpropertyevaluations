@@ -50,6 +50,7 @@ button {
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px 0px 5px 5px;
+    width: 
   }
   /*Shades the button when hovering*/
   button:hover {
@@ -72,6 +73,7 @@ input{
     border: 1px;
     border-radius: 5px 0px 5px 5px;
     background-color:#f6f6f6 ;
-    height: 3.5vh;
-    width: 12vw;
+    height: 2em;
+    width: 10em;
+
 }
