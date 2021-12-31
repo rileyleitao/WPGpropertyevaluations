@@ -1,0 +1,103 @@
+.card {
+/*shadow*/
+box-shadow: 0 2px 8px 0 rgba(0,0,2,0.8);
+transition: 0.3s;
+border-radius: 3px;
+background-color: white;
+padding:5px;
+}
+
+/* On mouse over, deepends shadow */
+.card:hover {
+    box-shadow: 10px 10px 10px 10px rgba(44, 47, 143, 0.2);
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+body{
+    margin-top:5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* background: rgb(135,48,255); */
+    background: linear-gradient(159deg, rgba(135,48,255,1) 0%, rgba(140,68,240,1) 9%, rgba(111,85,243,1) 87%, rgba(103,90,244,1) 91%, rgba(40,127,251,1) 100%, rgba(0,151,255,1) 100%);    
+}
+
+/*Stlying "Submit" button */
+button {
+    background-color: #554ed6; /*Blue from Splash Page Buttons */
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px 0px 5px 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+ 
+  }
+  /*Shades the button when hovering*/
+  button:hover {
+    opacity: 0.8;
+  }
+    
+
+/*Shades the button when hovering*/
+button:hover {
+    opacity: 0.8;
+  }
+  
+
+.textwrapper{
+padding-top:10px;
+}
+
+input{
+    margin: 5px;
+    border: 10px;
+    border-color:black;
+    border-radius: 5px 0px 5px 5px;
+    background-color:#f6f6f6 ;
+    height: 2em;
+    width: 10em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+::placeholder{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#output{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#outputText{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
